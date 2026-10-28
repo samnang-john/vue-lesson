@@ -18,4 +18,5 @@ const props = defineProps({
   phone: Number,
   ownername: String
 });
+//props
 </script>
