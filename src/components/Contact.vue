@@ -12,11 +12,12 @@
 <script setup>
 import { ref, defineProps } from 'vue';
 
-const email = ref('samnangjohn@gmail.com');
+// const email = ref('samnangjohn@gmail.com');
 const props = defineProps({
-  name: String,
+  name: { type: String, required : true },
   phone: Number,
-  ownername: String
+  ownername: String,
+  email : { type : String, required : false, default : "-n/a-"}
 });
 //props
 </script>
